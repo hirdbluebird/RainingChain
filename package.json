@@ -1,0 +1,23 @@
+{
+  "name": "raining_chain",
+  "version": "1.0.0",
+  "description": "Multiplayer HTML5 game",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hirdbluebird/RainingChain.git"
+  },
+  "author": "hirdbluebird",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hirdbluebird/RainingChain/issues"
+  },
+  "homepage": "https://github.com/hirdbluebird/RainingChain#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "socket.io": "^1.7.1"
+  }
+}
