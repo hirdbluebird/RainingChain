@@ -4,4 +4,18 @@ Hello, motherfucker
 
 <script>
 	var socket = io();
+
+	var random = Math.random();
+
+	var happy = function() {
+		socket.emit('happy', {
+			reason:"it's my birthday " + random
+		});
+	}
+
+	socket.on('serverMsg',function(data){
+		console.log(data.msg);
+	});
 </script>
+
+<button onclick="happy()">Happy</button>
